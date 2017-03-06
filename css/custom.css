@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Keep calm;
+    src: url(../fonts/KeepCalm-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 65px;
+}
+
+h1, h2, h3 {
+  font-family: "Keep calm", sans-serif;
+}
+
+h1 {
+  color: #FFF;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+h1.informacion, h1.cronograma {
+  background-color: #EC1C24;
+}
+
+h1.ponentes {
+  background-color: #FF6903;
+}
+
+h1.conocimiento {
+  background-color: #007AD4;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.id {
+  height: 70px;
+  margin-top: -70px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar-default {
+  background-color: #EC1C24;
+  border-bottom: none;
+  min-height: 70px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.slideshow {
+  height: 740px;
+}
+
+.backstretch img {
+  filter: brightness(50%) contrast(80%);
+}
+
+.header-content {
+  color: #FFF;
+}
+
+.large-logo {
+  width: 50%;
+  margin: 10px 0 30px;
+}
+
+img.language {
+  width: 100px;
+  margin: 15px;
+  border-radius: 12px;
+  border: 1px solid #FFF;
+}
+
+img.language:hover {
+  border: 2px solid #FFF;
+}
+
+.red-box {
+  background-color: rgba(236, 28, 36, 0.5);
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.clock-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 120px;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+.iconos {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.iconos img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.iconos h4 {
+  font-weight: bold;
+}
+
+.modal-img {
+  max-width: 100%;
+  padding-top: 15px;
+}
+
+.horario {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    height: 45px;
+  }
+  .large-logo {
+    width: 250px;
+  }
+  h4 {
+    font-size: 13px;
+  }
+}
